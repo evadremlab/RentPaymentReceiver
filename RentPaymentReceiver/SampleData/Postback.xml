@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PaymentPostBack xmlns="http://www.officialpayments.com/PaymentPostBack/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <paymentIdentifier>MOASAG</paymentIdentifier>
+  <resultCode>A</resultCode>
+  <resultText>Approved</resultText>
+  <customDataElements>
+    <customDataElement sequenceNumber="1">MOASAG</customDataElement>
+    <customDataElement sequenceNumber="9">||||||||</customDataElement>
+  </customDataElements>
+  <transactionDate>2018-03-01</transactionDate>
+  <transactionTime>11:34:26</transactionTime>
+  <paymentAmounts>
+    <paymentAmount sequenceNumber="1">999.00</paymentAmount>
+  </paymentAmounts>
+  <transactionFee>12.50</transactionFee>
+  <totalCharge>512.50</totalCharge>
+  <accountType>VISA</accountType>
+  <authorizationCode>123456</authorizationCode>
+  <receiptNumber>123456</receiptNumber>
+  <paymentID>1</paymentID>
+  <phoneNumber>1234567890</phoneNumber>
+  <name>
+    <first>Sam</first>
+    <middle />
+    <last>Walton</last>
+    <suffix />
+  </name>
+  <address>
+    <street1>123</street1>
+    <street2>Main street</street2>
+    <city>Berkeley</city>
+    <stateOrProvince>CA</stateOrProvince>
+    <zipOrPostalCode>94709</zipOrPostalCode>
+    <countryCode>US</countryCode>
+  </address>
+  <emailAddress>david@quartetsystems.com</emailAddress>
+  <paymentChannel>net</paymentChannel>
+</PaymentPostBack>
